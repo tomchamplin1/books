@@ -1,10 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Table from "./components/Table";
 
 function App() {
-  return (
-    <div className="text-4xl">CREATE REACT APP WITH TAILWIND BOILERPLATE</div>
-  );
+  return <Table />;
 }
 
 export default App;
